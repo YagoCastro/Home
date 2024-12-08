@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d21fa0393b8d4cc68f0f3c450bacd4e8</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="7df305cc" class="cell markdown">
+<p><img
+src="vertopal_20392a6dbab14b49aa12ab8a2fed2a29/Capa_Entendimento_Negocio_Dados.png"
+alt="Capa_Entendimento_Negocio_Dados.png" /></p>
+</div>
+<div id="59e83b8a" class="cell markdown">
+<h1 id="imports">Imports</h1>
+</div>
+<div id="50e15752" class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display, Markdown, Image</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> inflection </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pathlib</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_columns&#39;</span>, <span class="va">None</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_rows&#39;</span>, <span class="va">None</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_colwidth&#39;</span>, <span class="va">None</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&quot;#9467bd&quot;</span>, <span class="st">&quot;#057476&quot;</span>, <span class="st">&quot;#FF7A00&quot;</span>]</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># sns.set_style(&quot;whitegrid&quot;)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">&quot;ticks&quot;</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>sns.set_palette(sns.color_palette(colors))</span></code></pre></div>
+</div>
+<div id="3385116c" class="cell markdown">
+<h2 id="page_formatting">Page_Formatting</h2>
+</div>
+<div id="b91482a3" class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Código de Cores ANSI</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>azul <span class="op">=</span> <span class="st">&quot;</span><span class="ch">\033</span><span class="st">[38;2;10;31;68m&quot;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>verde <span class="op">=</span> <span class="st">&quot;</span><span class="ch">\033</span><span class="st">[38;5;82m&quot;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>laranja <span class="op">=</span> <span class="st">&quot;</span><span class="ch">\033</span><span class="st">[38;5;208m&quot;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>reset <span class="op">=</span> <span class="st">&#39;</span><span class="ch">\033</span><span class="st">[0m&#39;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">&#39;&#39;&#39;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;style&gt;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Aplicar fonte monoespaçada a todo o notebook */</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="st">    body, div.text_cell_render, div.code_cell pre, h1, h2, h3, h4, p {</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="st">        font-family: &quot;Courier New&quot;, Consolas, Monaco, monospace; /* Fonte monoespaçada */</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="st">    </span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Estilo para h1 */</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="st">    h3{ </span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="st">        color: #0a1f44;            /* Cor do texto (azul marinho) */</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="st">        background-color: #dcdde1; /* Fundo azul escuro (cinza mais escuro) */</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="st">        border-radius: 8px;        /* Bordas arredondadas */</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="st">        padding: 10px;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="st">    </span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Estilo para h2 */</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="st">    h1{</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">        color: #dcdde1;            /* Cor do texto (cinza claro) */</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="st">        background-color: #0a1f44; /* Fundo azul escuro (azul marinho) */</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="st">        border-radius: 8px;        /* Bordas arredondadas */</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="st">        padding: 10px;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="st">    </span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Estilo para h3 */</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="st">    h2{</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="st">        color:#dcdde1;            /* Cor do texto (azul mais claro) */</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="st">        background-color: #40739e; /* Fundo azul escuro (cinza mais escuro) */</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="st">        border-radius: 8px;        /* Bordas arredondadas */</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="st">        padding: 10px;</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="st">    </span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="st">    /* Estilo para h4 e h5 */</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="st">    h4, h5 {</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="st">        background-color:#40739e;  /* Fundo azul marinho */</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="st">        color: white;               /* Texto branco */</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="st">        border-radius: 8px;         /* Bordas arredondadas */</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="st">        padding: 10px;</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="st">    }</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/style&gt;</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="st">&#39;&#39;&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+
+<style>
+    /* Aplicar fonte monoespaçada a todo o notebook */
+    body, div.text_cell_render, div.code_cell pre, h1, h2, h3, h4, p {
+        font-family: "Courier New", Consolas, Monaco, monospace; /* Fonte monoespaçada */
+    }
+    
+    /* Estilo para h1 */
+    h3{ 
+        color: #0a1f44;            /* Cor do texto (azul marinho) */
+        background-color: #dcdde1; /* Fundo azul escuro (cinza mais escuro) */
+        border-radius: 8px;        /* Bordas arredondadas */
+        padding: 10px;
+    }
+    
+    /* Estilo para h2 */
+    h1{
+        color: #dcdde1;            /* Cor do texto (cinza claro) */
+        background-color: #0a1f44; /* Fundo azul escuro (azul marinho) */
+        border-radius: 8px;        /* Bordas arredondadas */
+        padding: 10px;
+    }
+    
+    /* Estilo para h3 */
+    h2{
+        color:#dcdde1;            /* Cor do texto (azul mais claro) */
+        background-color: #40739e; /* Fundo azul escuro (cinza mais escuro) */
+        border-radius: 8px;        /* Bordas arredondadas */
+        padding: 10px;
+    }
+    
+    /* Estilo para h4 e h5 */
+    h4, h5 {
+        background-color:#40739e;  /* Fundo azul marinho */
+        color: white;               /* Texto branco */
+        border-radius: 8px;         /* Bordas arredondadas */
+        padding: 10px;
+    }
+</style>
+
+</div>
+</div>
+<div id="a79ceb63" class="cell markdown">
+<h2 id="02-data_collection">0.2 Data_Collection</h2>
+</div>
+<div id="80fd70be" class="cell code" data-execution_count="3"
+data-scrolled="true">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Caminho onde estão os arquivos dos dados:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data_path <span class="op">=</span> pathlib.Path(<span class="vs">r&#39;C:/Users/Yago/Desktop/GitHubLocal/UFC/ComputationalIntelligence/HW1/2.data/&#39;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Criando uma lista para armazenar os DataFrames temporários</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>dataframes <span class="op">=</span> []</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Realizando um loop para percorrer cada arquivo presente em &#39;data_path&#39; e adicioná-lo à lista</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> arquivo <span class="kw">in</span> data_path.iterdir():</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> arquivo.suffix <span class="op">==</span> <span class="st">&#39;.csv&#39;</span>:  </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> pd.read_csv(arquivo)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        dataframes.append(df)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Concatenando todos os DataFrames em um único DataFrame</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>df_raw_seattle <span class="op">=</span> pd.concat(dataframes, ignore_index<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Exibindo informações sobre o DataFrame final</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_raw_seattle.info())</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 14525 entries, 0 to 14524
+Data columns (total 43 columns):
+ #   Column                           Non-Null Count  Dtype  
+---  ------                           --------------  -----  
+ 0   OSEBuildingID                    14525 non-null  int64  
+ 1   DataYear                         14525 non-null  int64  
+ 2   BuildingName                     14525 non-null  object 
+ 3   BuildingType                     14525 non-null  object 
+ 4   TaxParcelIdentificationNumber    14525 non-null  object 
+ 5   Address                          14525 non-null  object 
+ 6   City                             14523 non-null  object 
+ 7   State                            14523 non-null  object 
+ 8   ZipCode                          14414 non-null  float64
+ 9   Latitude                         14521 non-null  float64
+ 10  Longitude                        14521 non-null  float64
+ 11  Neighborhood                     14518 non-null  object 
+ 12  CouncilDistrictCode              14493 non-null  float64
+ 13  YearBuilt                        14525 non-null  int64  
+ 14  NumberofFloors                   14525 non-null  int64  
+ 15  PropertyGFATotal                 14525 non-null  int64  
+ 16  PropertyGFABuilding(s)           14525 non-null  int64  
+ 17  PropertyGFAParking               14525 non-null  int64  
+ 18  PrimaryPropertyType              3516 non-null   object 
+ 19  ENERGYSTARScore                  11335 non-null  float64
+ 20  SiteEUIWN(kBtu/sf)               13701 non-null  float64
+ 21  SiteEUI(kBtu/sf)                 13821 non-null  float64
+ 22  SiteEnergyUse(kBtu)              13763 non-null  float64
+ 23  SiteEnergyUseWN(kBtu)            13761 non-null  float64
+ 24  SourceEUIWN(kBtu/sf)             13701 non-null  float64
+ 25  SourceEUI(kBtu/sf)               13821 non-null  float64
+ 26  LargestPropertyUseType           14176 non-null  object 
+ 27  LargestPropertyUseTypeGFA        14236 non-null  float64
+ 28  SecondLargestPropertyUseType     7756 non-null   object 
+ 29  SecondLargestPropertyUseTypeGFA  9437 non-null   float64
+ 30  ThirdLargestPropertyUseType      2835 non-null   object 
+ 31  ThirdLargestPropertyUseTypeGFA   5797 non-null   float64
+ 32  Electricity(kWh)                 14317 non-null  float64
+ 33  SteamUse(kBtu)                   11008 non-null  float64
+ 34  NaturalGas(therms)               12856 non-null  float64
+ 35  EPAPropertyType                  14033 non-null  object 
+ 36  ComplianceStatus                 14525 non-null  object 
+ 37  ComplianceIssue                  14525 non-null  object 
+ 38  Electricity(kBtu)                14282 non-null  float64
+ 39  NaturalGas(kBtu)                 12821 non-null  float64
+ 40  TotalGHGEmissions                14284 non-null  float64
+ 41  GHGEmissionsIntensity            14281 non-null  float64
+ 42  NumberofBuildings                10944 non-null  float64
+dtypes: float64(22), int64(7), object(14)
+memory usage: 4.8+ MB
+None
+</code></pre>
+</div>
+</div>
+<div id="3a1494d2" class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># tamanho inicial da base de dados (sem tratamentos)</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df_raw_seattle.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>(14525, 43)</code></pre>
+</div>
+</div>
+<div id="247a5036" class="cell code" data-execution_count="5"
+data-scrolled="true">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># visualização dos primeiros registros da base de dados</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df_raw_seattle.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OSEBuildingID</th>
+      <th>DataYear</th>
+      <th>BuildingName</th>
+      <th>BuildingType</th>
+      <th>TaxParcelIdentificationNumber</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>State</th>
+      <th>ZipCode</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Neighborhood</th>
+      <th>CouncilDistrictCode</th>
+      <th>YearBuilt</th>
+      <th>NumberofFloors</th>
+      <th>PropertyGFATotal</th>
+      <th>PropertyGFABuilding(s)</th>
+      <th>PropertyGFAParking</th>
+      <th>PrimaryPropertyType</th>
+      <th>ENERGYSTARScore</th>
+      <th>SiteEUIWN(kBtu/sf)</th>
+      <th>SiteEUI(kBtu/sf)</th>
+      <th>SiteEnergyUse(kBtu)</th>
+      <th>SiteEnergyUseWN(kBtu)</th>
+      <th>SourceEUIWN(kBtu/sf)</th>
+      <th>SourceEUI(kBtu/sf)</th>
+      <th>LargestPropertyUseType</th>
+      <th>LargestPropertyUseTypeGFA</th>
+      <th>SecondLargestPropertyUseType</th>
+      <th>SecondLargestPropertyUseTypeGFA</th>
+      <th>ThirdLargestPropertyUseType</th>
+      <th>ThirdLargestPropertyUseTypeGFA</th>
+      <th>Electricity(kWh)</th>
+      <th>SteamUse(kBtu)</th>
+      <th>NaturalGas(therms)</th>
+      <th>EPAPropertyType</th>
+      <th>ComplianceStatus</th>
+      <th>ComplianceIssue</th>
+      <th>Electricity(kBtu)</th>
+      <th>NaturalGas(kBtu)</th>
+      <th>TotalGHGEmissions</th>
+      <th>GHGEmissionsIntensity</th>
+      <th>NumberofBuildings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>2019</td>
+      <td>MAYFLOWER PARK HOTEL</td>
+      <td>NonResidential</td>
+      <td>0659000030</td>
+      <td>405 OLIVE WAY</td>
+      <td>SEATTLE</td>
+      <td>WA</td>
+      <td>98101.0</td>
+      <td>47.61220</td>
+      <td>-122.33799</td>
+      <td>DOWNTOWN</td>
+      <td>1.0</td>
+      <td>1927</td>
+      <td>12</td>
+      <td>88434</td>
+      <td>88434</td>
+      <td>0</td>
+      <td>Hotel</td>
+      <td>62.0</td>
+      <td>83.3</td>
+      <td>83.1</td>
+      <td>7363218.0</td>
+      <td>7351864.0</td>
+      <td>167.6</td>
+      <td>167.6</td>
+      <td>Hotel</td>
+      <td>88434.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1134817.0</td>
+      <td>2159078.0</td>
+      <td>13208.0</td>
+      <td>Hotel</td>
+      <td>Compliant</td>
+      <td>No Issue</td>
+      <td>3871996.0</td>
+      <td>1320791.0</td>
+      <td>208.8</td>
+      <td>2.4</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>2019</td>
+      <td>PARAMOUNT HOTEL</td>
+      <td>NonResidential</td>
+      <td>0659000220</td>
+      <td>724 PINE ST</td>
+      <td>SEATTLE</td>
+      <td>WA</td>
+      <td>98101.0</td>
+      <td>47.61317</td>
+      <td>-122.33393</td>
+      <td>DOWNTOWN</td>
+      <td>1.0</td>
+      <td>1996</td>
+      <td>11</td>
+      <td>103566</td>
+      <td>88502</td>
+      <td>15064</td>
+      <td>Hotel</td>
+      <td>70.0</td>
+      <td>90.9</td>
+      <td>90.5</td>
+      <td>8040648.0</td>
+      <td>8006404.0</td>
+      <td>153.7</td>
+      <td>153.3</td>
+      <td>Hotel</td>
+      <td>83880.0</td>
+      <td>Parking</td>
+      <td>15064.0</td>
+      <td>Restaurant</td>
+      <td>4622.0</td>
+      <td>863688.0</td>
+      <td>0.0</td>
+      <td>50595.0</td>
+      <td>Hotel</td>
+      <td>Compliant</td>
+      <td>No Issue</td>
+      <td>2946902.0</td>
+      <td>5059502.0</td>
+      <td>286.9</td>
+      <td>3.2</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2019</td>
+      <td>WESTIN HOTEL (Parent Building)</td>
+      <td>NonResidential</td>
+      <td>0659000475</td>
+      <td>1900 5TH AVE</td>
+      <td>SEATTLE</td>
+      <td>WA</td>
+      <td>98101.0</td>
+      <td>47.61367</td>
+      <td>-122.33822</td>
+      <td>DOWNTOWN</td>
+      <td>1.0</td>
+      <td>1969</td>
+      <td>41</td>
+      <td>956110</td>
+      <td>759392</td>
+      <td>196718</td>
+      <td>Hotel</td>
+      <td>64.0</td>
+      <td>90.4</td>
+      <td>90.0</td>
+      <td>68355568.0</td>
+      <td>68103264.0</td>
+      <td>201.5</td>
+      <td>201.1</td>
+      <td>Hotel</td>
+      <td>756493.0</td>
+      <td>Parking</td>
+      <td>138635.0</td>
+      <td>Swimming Pool</td>
+      <td>0.0</td>
+      <td>12917890.0</td>
+      <td>22601024.0</td>
+      <td>14264.0</td>
+      <td>Hotel</td>
+      <td>Compliant</td>
+      <td>No Issue</td>
+      <td>44075841.0</td>
+      <td>1426400.0</td>
+      <td>1549.0</td>
+      <td>2.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5</td>
+      <td>2019</td>
+      <td>HOTEL MAX</td>
+      <td>NonResidential</td>
+      <td>0659000640</td>
+      <td>620 STEWART ST</td>
+      <td>SEATTLE</td>
+      <td>WA</td>
+      <td>98101.0</td>
+      <td>47.61412</td>
+      <td>-122.33664</td>
+      <td>DOWNTOWN</td>
+      <td>1.0</td>
+      <td>1926</td>
+      <td>10</td>
+      <td>61320</td>
+      <td>61320</td>
+      <td>0</td>
+      <td>Hotel</td>
+      <td>58.0</td>
+      <td>103.5</td>
+      <td>103.0</td>
+      <td>6346838.0</td>
+      <td>6319004.0</td>
+      <td>177.5</td>
+      <td>176.3</td>
+      <td>Hotel</td>
+      <td>61320.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>645119.0</td>
+      <td>2104444.0</td>
+      <td>20134.0</td>
+      <td>Hotel</td>
+      <td>Compliant</td>
+      <td>No Issue</td>
+      <td>2201145.0</td>
+      <td>2013415.0</td>
+      <td>232.4</td>
+      <td>3.8</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>8</td>
+      <td>2019</td>
+      <td>WARWICK SEATTLE HOTEL</td>
+      <td>NonResidential</td>
+      <td>0659000970</td>
+      <td>401 LENORA ST</td>
+      <td>SEATTLE</td>
+      <td>WA</td>
+      <td>98121.0</td>
+      <td>47.61375</td>
+      <td>-122.34047</td>
+      <td>DOWNTOWN</td>
+      <td>1.0</td>
+      <td>1980</td>
+      <td>18</td>
+      <td>175580</td>
+      <td>113580</td>
+      <td>62000</td>
+      <td>Hotel</td>
+      <td>63.0</td>
+      <td>128.6</td>
+      <td>128.6</td>
+      <td>15875107.0</td>
+      <td>15875107.0</td>
+      <td>212.2</td>
+      <td>212.2</td>
+      <td>Hotel</td>
+      <td>123445.0</td>
+      <td>Parking</td>
+      <td>68009.0</td>
+      <td>Swimming Pool</td>
+      <td>0.0</td>
+      <td>1595784.0</td>
+      <td>0.0</td>
+      <td>104303.0</td>
+      <td>Hotel</td>
+      <td>Compliant</td>
+      <td>No Issue</td>
+      <td>5444815.0</td>
+      <td>10430292.0</td>
+      <td>587.5</td>
+      <td>5.2</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="56a81738" class="cell markdown">
+<h1 id="1-entendimento-do-negócio">1. Entendimento do Negócio</h1>
+</div>
+<div id="9df7fd50" class="cell markdown">
+<p>A Seattle Energy Benchmarking Law é uma legislação municipal de
+Seattle (Seattle Municipal Code 22.920) que regula o monitoramento e a
+transparência do consumo de energia em edifícios. O objetivo principal
+da lei é medir, registrar e divulgar o desempenho energético dos maiores
+edifícios da cidade para incentivar melhorias na eficiência energética,
+reduzir emissões de carbono e alinhar-se com as metas de
+sustentabilidade e combate às mudanças climáticas. [1]</p>
+</div>
+<div id="186bf8b4" class="cell markdown">
+<p>O propósito da portaria de benchmarking de energia de edifícios de
+Seattle é reduzir o consumo de energia e as emissões de gases de efeito
+estufa, alinhando-se aos objetivos climáticos da cidade, que visam
+alcançar emissões líquidas zero até 2050. Através de relatórios anuais e
+divulgação do desempenho dos edifícios, o programa permite que
+proprietários e ocupantes identifiquem ineficiências e oportunidades de
+economia de energia. Além disso, incentiva o mercado a valorizar e
+recompensar a eficiência energética, promovendo um ciclo contínuo de
+melhoria e uma maior demanda por edifícios sustentáveis. [2]</p>
+</div>
+<div id="3e951933" class="cell markdown">
+<p>Quais edifícios são exigidos pela Portaria de Referência de Energia
+de Seattle? Edifícios não residenciais ou multifamiliares com mais de
+20.000 pés quadrados, excluindo estacionamento, e que estão localizados
+inteiramente dentro da cidade de Seattle. [2]</p>
+<p>Seu edifício pode se qualificar para uma isenção de relatório se:</p>
+</div>
+<div id="7f1031d9" class="cell markdown">
+<p>a) Edifícios sujeitos ao Código Residencial de Seattle, que abrange
+moradias unifamiliares e bifamiliares isoladas e múltiplas moradias
+unifamiliares (sobrados) com no máximo três andares de altura com um
+meio de saída separado e suas estruturas acessórias.</p>
+<p>b) Edifícios classificados sob o atual Código de Construção de
+Seattle como Grupo Residencial R-3. Isso inclui todas as ocupações
+residenciais onde os ocupantes são principalmente permanentes por
+natureza, a menos que a ocupação seja classificada em R-1, R-2 ou I. De
+acordo com o Código de Construção de Seattle de 2012, o Grupo R-3
+inclui:</p>
+<ul>
+<li>Edifícios que não contêm mais de duas unidades habitacionais</li>
+<li>Pensões (não transitórias) com 16 ou menos ocupantes</li>
+<li>Pensões (transitórias) com 10 ou menos ocupantes</li>
+<li>Instalações de cuidados que fornecem acomodações para cinco ou menos
+pessoas recebendo cuidados</li>
+<li>Instalações de vida coletiva (não transitórias) com 16 ou menos
+ocupantes</li>
+<li>Instalações de vida coletiva (transitórias) com 10 ou menos
+ocupantes</li>
+</ul>
+<p>c) Edifícios usados ​​principalmente para fins de fabricação ou
+industriais, conforme demonstrado pelo envio de um dos seguintes:</p>
+<p>a. Um Certificado de Ocupação válido ou licença de construção
+documentando que pelo menos 50% do edifício é classificado sob o Código
+de Construção de Seattle como Grupo Industrial F de Fábrica. Isso inclui
+edifícios usados ​​para operações de montagem, desmontagem, fabricação,
+acabamento, manufatura, embalagem, reparo ou processamento.</p>
+<p>b. Formulário de isenção de benchmarking da OSE, no qual o
+Proprietário do Edifício verificou que:</p>
+<ul>
+<li>Nem eles nem a equipe da OSE conseguiram localizar um Certificado de
+Ocupação para seu edifício; e</li>
+<li>Seu edifício atende à definição de um edifício do Grupo Industrial F
+de Fábrica, conforme classificado no Código de Construção de
+Seattle</li>
+</ul>
+</div>
+<div id="3cd467db" class="cell markdown">
+<h2 id="11objetivos-do-seattle-energy-benchmarking-law">1.1.Objetivos do
+Seattle Energy Benchmarking Law</h2>
+</div>
+<div id="b38aa7b2" class="cell markdown">
+<ul>
+<li><p>Monitoramento Obrigatório: Proporcionar dados consistentes sobre
+o consumo de energia e as emissões de carbono dos edifícios.</p></li>
+<li><p>Relatórios Anuais: Exigir que os proprietários relatem os dados
+de desempenho energético de cada ano até o dia 1º de junho do ano
+seguinte, para garantir uma análise atualizada.</p></li>
+<li><p>Publicação dos Dados: Divulgar informações de mais de 3.600
+edifícios (375 milhões de pés quadrados) por meio do portal
+data.seattle.gov e do Seattle Energy Benchmarking Map. Essa
+transparência ajuda a criar um mercado mais informado e a estimular
+melhorias na eficiência energética.</p></li>
+<li><p>Cumprimento e Conformidade: Encorajar a conformidade por meio de
+prazos estabelecidos e ferramentas como o Compliance Portal.</p></li>
+<li><p>Redução de Impacto Ambiental: Identificar edifícios menos
+eficientes e incentivar melhorias que levem à redução de emissões de
+carbono.</p></li>
+</ul>
+</div>
+<div id="ebf6ea4a" class="cell markdown">
+<h1
+id="2objetivos_da_atividade_homework1">2.Objetivos_da_Atividade_(Homework1)</h1>
+</div>
+<div id="4956d326" class="cell markdown">
+<h2 id="21metodologias">2.1.Metodologias</h2>
+</div>
+<div id="7ee4405b" class="cell markdown">
+<p><img
+src="vertopal_20392a6dbab14b49aa12ab8a2fed2a29/4tipos_analise.png"
+alt="4tipos_analise.png" /></p>
+</div>
+<div id="5f9010bb" class="cell markdown">
+<p>Conforme apresentada na Figura acima temos quatro tipos principais de
+análise de dados e esse trabalho será concentrado em realizar uma
+análise descritiva dos dados e também realizar técnicas de análise e
+visualização fazer um diagnóstico dos dados.</p>
+<p>Logo, os principais objetivos são:</p>
+</div>
+<div id="0b621e3c" class="cell markdown">
+<h2 id="22objetivos">2.2.Objetivos</h2>
+</div>
+<div id="73c3bbe3" class="cell markdown">
+<p>a) Práticas os métodos e técnicas que foram apresentas durante as
+aulas, conforme os pontos destacados:</p>
+<ul>
+<li><p>Descrição dos Dados: Identifique o número de observações (N),
+preditores (D), classes (L) e a distribuição das classes no conjunto de
+dados.</p></li>
+<li><p>Análise Univariada: Realize uma análise dos preditores
+individualmente, incluindo histogramas, box-plots e cálculo de média,
+desvio padrão e assimetria para cada variável.</p></li>
+<li><p>Análise Univariada Condicional: Repita a análise univariada, mas
+separada por classes, e calcule as estatísticas para cada classe,
+observando padrões discriminatórios.</p></li>
+<li><p>Análise Bivariada: Explore as relações entre pares de preditores
+por meio de scatter plots e calcule os coeficientes de correlação para
+identificar dependências lineares ou não lineares.</p></li>
+<li><p>Análise Multivariada (PCA): Realize uma análise de componentes
+principais para reduzir a dimensionalidade e visualize a separação das
+classes nas duas primeiras componentes principais.</p></li>
+</ul>
+</div>
+<div id="465db5ca" class="cell markdown">
+<h2
+id="3construction-of-the-data-dictionary-descrição-dos-dados">3.Construction
+of the Data Dictionary (Descrição dos Dados)</h2>
+</div>
+<div id="e61ebfc5" class="cell markdown">
+<p>Nessa primeira etapa é muito importante mapeamos os nossos dados,
+primeiro para conhecer cada um e identificar qual característica ou
+informação aquele dado expressa. Esse dicionário também se rá importante
+para conferimos o tipo de dados se estar corretamente especificado, e
+será importante para consultamos essas informações no decorrer do
+projeto, para, por exemplo, dividimos os dados em categorias e realizar
+analises com base no tipo do dado.</p>
+<p>Organização e Padronização: O dicionário de dados descreve as
+variáveis, suas definições, tipos de dados, unidades e restrições. Essa
+documentação organiza os dados e garante que todos entendam o que cada
+campo representa, evitando ambiguidade.</p>
+<p>Escalabilidade: Se o projeto for expandido no futuro, o dicionário de
+dados ajuda a integrar novos dados ou variáveis de forma estruturada e a
+garantir que a base existente seja preservada.</p>
+<p>Facilita a Colaboração: Um dicionário de dados é uma referência para
+todos os envolvidos no projeto (equipe de TI, analistas, usuários
+finais). Isso torna mais fácil para novos membros da equipe entenderem
+rapidamente a estrutura dos dados.</p>
+<p>Documentação e Auditoria: Em projetos de longo prazo, o dicionário de
+dados serve como um registro que documenta todas as variáveis e suas
+modificações. Isso é importante para auditorias, para rastrear a origem
+e a finalidade dos dados e entender mudanças feitas ao longo do
+tempo.</p>
+</div>
+<div id="8e74f04c" class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>data_dict <span class="op">=</span> pd.DataFrame([</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;OSEBuildingID&quot;</span>,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Um identificador exclusivo atribuído a cada propriedade coberta pela Portaria de Referência de Seattle para fins de rastreamento e identificação.&quot;</span>,</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;A unique identifier assigned to each property covered by the Seattle Benchmarking Ordinance for tracking and identification purposes.&quot;</span>,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;DataYear&quot;</span>,</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Ano civil (janeiro-dezembro) representado por cada registro de dados.&quot;</span>,</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Calendar year (January-December) represented by each data record.&quot;</span>,</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span>   </span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;BuildingName&quot;</span>,</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Nome oficial ou comum da propriedade registrado na cidade de Seattle.&quot;</span>,</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Official or common property name on record with the City of Seattle.&quot;</span>,</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;BuildingType&quot;</span>,</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Classificação de tipo de edifício de alto nível da cidade de Seattle.&quot;</span>,</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;City of Seattle high level building type classification.&quot;</span>,</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;TaxParcelIdentificationNumber&quot;</span>,</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Identificador único para a parcela de imposto do edifício.&quot;</span>,</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Unique identifier for the building’s tax parcel.&quot;</span>,</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;Address&quot;</span>,</span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Endereço do edifício.&quot;</span>,</span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Street address of the building.&quot;</span>,</span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-42"><a href="#cb8-42" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-43"><a href="#cb8-43" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-44"><a href="#cb8-44" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-45"><a href="#cb8-45" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;City&quot;</span>,</span>
+<span id="cb8-46"><a href="#cb8-46" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Cidade onde o edifício está localizado.&quot;</span>,</span>
+<span id="cb8-47"><a href="#cb8-47" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;City where the building is located.&quot;</span>,</span>
+<span id="cb8-48"><a href="#cb8-48" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-49"><a href="#cb8-49" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-50"><a href="#cb8-50" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-51"><a href="#cb8-51" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-52"><a href="#cb8-52" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;State&quot;</span>,</span>
+<span id="cb8-53"><a href="#cb8-53" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Sigla do estado onde o edifício está localizado.&quot;</span>,</span>
+<span id="cb8-54"><a href="#cb8-54" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;State abbreviation where the building is located.&quot;</span>,</span>
+<span id="cb8-55"><a href="#cb8-55" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-56"><a href="#cb8-56" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-57"><a href="#cb8-57" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-58"><a href="#cb8-58" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-59"><a href="#cb8-59" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;ZipCode&quot;</span>,</span>
+<span id="cb8-60"><a href="#cb8-60" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Código postal do local do edifício.&quot;</span>,</span>
+<span id="cb8-61"><a href="#cb8-61" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;State abbreviation where the building is located.&quot;</span>,</span>
+<span id="cb8-62"><a href="#cb8-62" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-63"><a href="#cb8-63" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-64"><a href="#cb8-64" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-65"><a href="#cb8-65" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-66"><a href="#cb8-66" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;Latitude&quot;</span>,</span>
+<span id="cb8-67"><a href="#cb8-67" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Coordenada de latitude da localização do edifício.&quot;</span>,</span>
+<span id="cb8-68"><a href="#cb8-68" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Latitude coordinate of the building location.&quot;</span>,</span>
+<span id="cb8-69"><a href="#cb8-69" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-70"><a href="#cb8-70" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-71"><a href="#cb8-71" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-72"><a href="#cb8-72" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-73"><a href="#cb8-73" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;Longitude&quot;</span>,</span>
+<span id="cb8-74"><a href="#cb8-74" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Coordenada longitudinais da localização do edifício.&quot;</span>,</span>
+<span id="cb8-75"><a href="#cb8-75" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Longitude coordinate of the building location.&quot;</span>,</span>
+<span id="cb8-76"><a href="#cb8-76" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-77"><a href="#cb8-77" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-78"><a href="#cb8-78" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-79"><a href="#cb8-79" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-80"><a href="#cb8-80" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;Neighborhood&quot;</span>,</span>
+<span id="cb8-81"><a href="#cb8-81" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Área de vizinhança da propriedade definida pelo Departamento de Bairros da Cidade de Seattle.&quot;</span>,</span>
+<span id="cb8-82"><a href="#cb8-82" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Property neighborhood area defined by the City of Seattle Department of Neighborhoods.&quot;</span>,</span>
+<span id="cb8-83"><a href="#cb8-83" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-84"><a href="#cb8-84" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-85"><a href="#cb8-85" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-86"><a href="#cb8-86" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-87"><a href="#cb8-87" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;CouncilDistrictCode&quot;</span>,</span>
+<span id="cb8-88"><a href="#cb8-88" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Propriedade do distrito do conselho da cidade de Seattle.&quot;</span>,</span>
+<span id="cb8-89"><a href="#cb8-89" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Property City of Seattle council district.&quot;</span>,</span>
+<span id="cb8-90"><a href="#cb8-90" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-91"><a href="#cb8-91" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-92"><a href="#cb8-92" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-93"><a href="#cb8-93" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-94"><a href="#cb8-94" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;YearBuilt&quot;</span>,</span>
+<span id="cb8-95"><a href="#cb8-95" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Ano em que um imóvel foi construído.&quot;</span>,</span>
+<span id="cb8-96"><a href="#cb8-96" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Year in which a property was constructed.&quot;</span>,</span>
+<span id="cb8-97"><a href="#cb8-97" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-98"><a href="#cb8-98" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-99"><a href="#cb8-99" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-100"><a href="#cb8-100" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-101"><a href="#cb8-101" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;NumberofFloors&quot;</span>,</span>
+<span id="cb8-102"><a href="#cb8-102" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Número total de andares do edifício.&quot;</span>,</span>
+<span id="cb8-103"><a href="#cb8-103" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Total number of floors in the building.&quot;</span>,</span>
+<span id="cb8-104"><a href="#cb8-104" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-105"><a href="#cb8-105" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-106"><a href="#cb8-106" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-107"><a href="#cb8-107" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-108"><a href="#cb8-108" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;PropertyGFATotal&quot;</span>,</span>
+<span id="cb8-109"><a href="#cb8-109" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Área bruta total do edifício e do estacionamento.&quot;</span>,</span>
+<span id="cb8-110"><a href="#cb8-110" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Total building and parking gross floor area.&quot;</span>,</span>
+<span id="cb8-111"><a href="#cb8-111" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-112"><a href="#cb8-112" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-113"><a href="#cb8-113" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-114"><a href="#cb8-114" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-115"><a href="#cb8-115" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;PropertyGFABuilding(s)&quot;</span>,</span>
+<span id="cb8-116"><a href="#cb8-116" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Área total do piso em pés quadrados entre as superfícies externas das paredes de fechamento de um edifício. Isso inclui todas as áreas dentro do(s) edifício(s), como espaço para inquilinos, áreas comuns, escadas, porões, armazenamento, etc...&quot;</span>,</span>
+<span id="cb8-117"><a href="#cb8-117" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Total floor space in square feet between the outside surfaces of a building’s enclosing walls. This includes all areas inside the building(s), such as tenant space, common areas, stairwells, basements, storage, etc...&quot;</span>,</span>
+<span id="cb8-118"><a href="#cb8-118" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-119"><a href="#cb8-119" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-120"><a href="#cb8-120" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-121"><a href="#cb8-121" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-122"><a href="#cb8-122" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;PropertyGFAParking&quot;</span>,</span>
+<span id="cb8-123"><a href="#cb8-123" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Espaço total em metros quadrados de todos os tipos de estacionamento (totalmente fechado, parcialmente fechado e aberto).&quot;</span>,</span>
+<span id="cb8-124"><a href="#cb8-124" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Total space in square feet of all types of parking (Fully Enclosed, Partially Enclosed, and Open).&quot;</span>,</span>
+<span id="cb8-125"><a href="#cb8-125" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-126"><a href="#cb8-126" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-127"><a href="#cb8-127" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-128"><a href="#cb8-128" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-129"><a href="#cb8-129" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;PrimaryPropertyType&quot;</span>,</span>
+<span id="cb8-130"><a href="#cb8-130" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Qual a função primária da propriedade&quot;</span>,</span>
+<span id="cb8-131"><a href="#cb8-131" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;What is the primary function of the property&quot;</span>,</span>
+<span id="cb8-132"><a href="#cb8-132" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-133"><a href="#cb8-133" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-134"><a href="#cb8-134" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-135"><a href="#cb8-135" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-136"><a href="#cb8-136" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;ENERGYSTARScore&quot;</span>,</span>
+<span id="cb8-137"><a href="#cb8-137" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Uma classificação de 1-100 calculada pela EPA que avalia o desempenho energético geral de uma propriedade, com base em dados nacionais para controlar as diferenças entre clima, usos de edifícios e operações. Uma pontuação de 50 representa a mediana nacional&quot;</span>,</span>
+<span id="cb8-138"><a href="#cb8-138" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;An EPA calculated 1-100 rating that assesses a property’s overall energy performance, based on national data to control for differences among climate, building uses, and operations. A score of 50 represents the national median&quot;</span>,</span>
+<span id="cb8-139"><a href="#cb8-139" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-140"><a href="#cb8-140" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-141"><a href="#cb8-141" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-142"><a href="#cb8-142" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-143"><a href="#cb8-143" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SiteEUIWN(kBtu/sf)&quot;</span>,</span>
+<span id="cb8-144"><a href="#cb8-144" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A Intensidade de Uso de Energia do Local (EUI) Normalizada pelo Clima (WN) é a Energia do Local WN de uma propriedade dividida por sua área bruta de piso (em pés quadrados). A Energia do Local WN é o Uso de Energia do Local que a propriedade teria consumido durante as condições climáticas médias de 30 anos. A EUI do Local WN é medida em milhares de unidades térmicas britânicas (kBtu) por pé quadrado.&quot;</span>,</span>
+<span id="cb8-145"><a href="#cb8-145" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Weather Normalized (WN) Site Energy Use Intensity (EUI) is a property&#39;s WN Site Energy divided by its gross floor area (in square feet). WN Site Energy is the Site Energy Use the property would have consumed during 30-year average weather conditions. WN Site EUI is measured in measured in thousands of British thermal units (kBtu) per square foot.&quot;</span>,</span>
+<span id="cb8-146"><a href="#cb8-146" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-147"><a href="#cb8-147" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-148"><a href="#cb8-148" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-149"><a href="#cb8-149" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-150"><a href="#cb8-150" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SiteEUI(kBtu/sf)&quot;</span>,</span>
+<span id="cb8-151"><a href="#cb8-151" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A Intensidade de Uso de Energia do Local (EUI) é o Uso de Energia do Local de uma propriedade dividido por sua área bruta de piso. O Uso de Energia do Local é a quantidade anual de toda a energia consumida pela propriedade no local, conforme relatado nas contas de serviços públicos. O EUI do Local é medido em milhares de unidades térmicas britânicas (kBtu) por pé quadrado.&quot;</span>,</span>
+<span id="cb8-152"><a href="#cb8-152" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Site Energy Use Intensity (EUI) is a property&#39;s Site Energy Use divided by its gross floor area. Site Energy Use is the annual amount of all the energy consumed by the property on-site, as reported on utility bills. Site EUI is measured in thousands of British thermal units (kBtu) per square foot.&quot;</span>,</span>
+<span id="cb8-153"><a href="#cb8-153" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-154"><a href="#cb8-154" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-155"><a href="#cb8-155" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-156"><a href="#cb8-156" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-157"><a href="#cb8-157" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SiteEnergyUse(kBtu)&quot;</span>,</span>
+<span id="cb8-158"><a href="#cb8-158" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade anual de energia consumida pela propriedade de todas as fontes de energia.&quot;</span>,</span>
+<span id="cb8-159"><a href="#cb8-159" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The annual amount of energy consumed by the property from all sources of energy.&quot;</span>,</span>
+<span id="cb8-160"><a href="#cb8-160" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-161"><a href="#cb8-161" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-162"><a href="#cb8-162" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-163"><a href="#cb8-163" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-164"><a href="#cb8-164" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SiteEnergyUseWN(kBtu)&quot;</span>,</span>
+<span id="cb8-165"><a href="#cb8-165" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade anual de energia consumida pela propriedade de todas as fontes de energia, ajustada ao que a propriedade teria consumido durante as condições climáticas médias de 30 anos.&quot;</span>,</span>
+<span id="cb8-166"><a href="#cb8-166" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The annual amount of energy consumed by the property from all sources of energy, adjusted to what the property would have consumed during 30-year average weather conditions.&quot;</span>,</span>
+<span id="cb8-167"><a href="#cb8-167" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-168"><a href="#cb8-168" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-169"><a href="#cb8-169" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-170"><a href="#cb8-170" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-171"><a href="#cb8-171" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SourceEUIWN(kBtu/sf)&quot;</span>,</span>
+<span id="cb8-172"><a href="#cb8-172" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A Intensidade de Uso de Energia de Fonte (EUI) Normalizada pelo Clima (WN) é a Energia de Fonte WN de uma propriedade dividida por sua área bruta de piso. A Energia de Fonte WN é o Uso de Energia de Fonte que a propriedade teria consumido durante as condições climáticas médias de 30 anos. A EUI de Fonte WN é medida em milhares de unidades térmicas britânicas (kBtu) por pé quadrado.&quot;</span>,</span>
+<span id="cb8-173"><a href="#cb8-173" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Weather Normalized (WN) Source Energy Use Intensity (EUI) is a property&#39;s WN Source Energy divided by its gross floor area. WN Source Energy is the Source Energy Use the property would have consumed during 30-year average weather conditions. WN Source EUI is measured in measured in thousands of British thermal units (kBtu) per square foot.&quot;</span>,</span>
+<span id="cb8-174"><a href="#cb8-174" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-175"><a href="#cb8-175" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-176"><a href="#cb8-176" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-177"><a href="#cb8-177" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-178"><a href="#cb8-178" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SourceEUI(kBtu/sf)&quot;</span>,</span>
+<span id="cb8-179"><a href="#cb8-179" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Intensidade de Uso de Energia de Fonte (EUI) é o Uso de Energia de Fonte de uma propriedade dividido por sua área bruta de piso. Uso de Energia de Fonte é a energia anual usada para operar a propriedade, incluindo perdas de geração, transmissão e distribuição. EUI de Fonte é medido em milhares de unidades térmicas britânicas (kBtu) por pé quadrado.&quot;</span>,</span>
+<span id="cb8-180"><a href="#cb8-180" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Source Energy Use Intensity (EUI) is a property&#39;s Source Energy Use divided by its gross floor area. Source Energy Use is the annual energy used to operate the property, including losses from generation, transmission, &amp; distribution. Source EUI is measured in thousands of British thermal units (kBtu) per square foot.&quot;</span>,</span>
+<span id="cb8-181"><a href="#cb8-181" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-182"><a href="#cb8-182" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-183"><a href="#cb8-183" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-184"><a href="#cb8-184" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-185"><a href="#cb8-185" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;LargestPropertyUseType&quot;</span>,</span>
+<span id="cb8-186"><a href="#cb8-186" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Tipo de uso primário da maior área do edifício.&quot;</span>,</span>
+<span id="cb8-187"><a href="#cb8-187" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Primary use type of the largest area in the building.&quot;</span>,</span>
+<span id="cb8-188"><a href="#cb8-188" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-189"><a href="#cb8-189" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-190"><a href="#cb8-190" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-191"><a href="#cb8-191" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-192"><a href="#cb8-192" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;LargestPropertyUseTypeGFA&quot;</span>,</span>
+<span id="cb8-193"><a href="#cb8-193" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Área bruta do maior tipo de uso da propriedade.&quot;</span>,</span>
+<span id="cb8-194"><a href="#cb8-194" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Gross floor area of the largest property use type.&quot;</span>,</span>
+<span id="cb8-195"><a href="#cb8-195" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-196"><a href="#cb8-196" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-197"><a href="#cb8-197" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-198"><a href="#cb8-198" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-199"><a href="#cb8-199" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SecondLargestPropertyUseType&quot;</span>,</span>
+<span id="cb8-200"><a href="#cb8-200" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Tipo de uso secundário da segunda maior área do edifício.&quot;</span>,</span>
+<span id="cb8-201"><a href="#cb8-201" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Secondary use type of the second largest area in the building.&quot;</span>,</span>
+<span id="cb8-202"><a href="#cb8-202" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-203"><a href="#cb8-203" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-204"><a href="#cb8-204" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-205"><a href="#cb8-205" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-206"><a href="#cb8-206" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SecondLargestPropertyUseTypeGFA&quot;</span>,</span>
+<span id="cb8-207"><a href="#cb8-207" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Área bruta do segundo maior tipo de uso da propriedade.&quot;</span>,</span>
+<span id="cb8-208"><a href="#cb8-208" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Gross floor area of the second largest property use type.&quot;</span>,</span>
+<span id="cb8-209"><a href="#cb8-209" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-210"><a href="#cb8-210" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-211"><a href="#cb8-211" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-212"><a href="#cb8-212" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-213"><a href="#cb8-213" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;ThirdLargestPropertyUseType&quot;</span>,</span>
+<span id="cb8-214"><a href="#cb8-214" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Terceiro tipo de uso no edifício por área&quot;</span>,</span>
+<span id="cb8-215"><a href="#cb8-215" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Third use type in the building by area.&quot;</span>,</span>
+<span id="cb8-216"><a href="#cb8-216" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-217"><a href="#cb8-217" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-218"><a href="#cb8-218" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-219"><a href="#cb8-219" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-220"><a href="#cb8-220" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;ThirdLargestPropertyUseTypeGFA&quot;</span>,</span>
+<span id="cb8-221"><a href="#cb8-221" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Área bruta do terceiro maior tipo de uso da propriedade.&quot;</span>,</span>
+<span id="cb8-222"><a href="#cb8-222" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Gross floor area of the third largest property use type.&quot;</span>,</span>
+<span id="cb8-223"><a href="#cb8-223" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-224"><a href="#cb8-224" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-225"><a href="#cb8-225" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-226"><a href="#cb8-226" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-227"><a href="#cb8-227" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;Electricity(kWh)&quot;</span>,</span>
+<span id="cb8-228"><a href="#cb8-228" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade anual de eletricidade consumida pela propriedade no local, incluindo eletricidade comprada da rede e gerada por sistemas renováveis ​​no local, medida em kWh.&quot;</span>,</span>
+<span id="cb8-229"><a href="#cb8-229" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The annual amount of electricity consumed by the property on-site, including electricity purchased from the grid and generated by onsite renewable systems, measured in kWh.&quot;</span>,</span>
+<span id="cb8-230"><a href="#cb8-230" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-231"><a href="#cb8-231" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-232"><a href="#cb8-232" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-233"><a href="#cb8-233" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-234"><a href="#cb8-234" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;SteamUse(kBtu)&quot;</span>,</span>
+<span id="cb8-235"><a href="#cb8-235" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Consumo anual de vapor em kBtu.&quot;</span>,</span>
+<span id="cb8-236"><a href="#cb8-236" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Annual steam usage in kBtu.&quot;</span>,</span>
+<span id="cb8-237"><a href="#cb8-237" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-238"><a href="#cb8-238" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-239"><a href="#cb8-239" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-240"><a href="#cb8-240" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-241"><a href="#cb8-241" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;NaturalGas(therms)&quot;</span>,</span>
+<span id="cb8-242"><a href="#cb8-242" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade anual de gás natural fornecido pela concessionária consumido pela propriedade, medida em termos.&quot;</span>,</span>
+<span id="cb8-243"><a href="#cb8-243" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The annual amount of utility-supplied natural gas consumed by the property, measured in therms.&quot;</span>,</span>
+<span id="cb8-244"><a href="#cb8-244" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-245"><a href="#cb8-245" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-246"><a href="#cb8-246" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-247"><a href="#cb8-247" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-248"><a href="#cb8-248" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;EPAPropertyType&quot;</span>,</span>
+<span id="cb8-249"><a href="#cb8-249" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Classificação do tipo de propriedade da EPA para o edifício.&quot;</span>,</span>
+<span id="cb8-250"><a href="#cb8-250" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;EPA property type classification for the building.&quot;</span>,</span>
+<span id="cb8-251"><a href="#cb8-251" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-252"><a href="#cb8-252" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-253"><a href="#cb8-253" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-254"><a href="#cb8-254" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-255"><a href="#cb8-255" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;ComplianceStatus&quot;</span>,</span>
+<span id="cb8-256"><a href="#cb8-256" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Se uma propriedade atendeu aos requisitos de referência de energia para o ano de relatório atual.&quot;</span>,</span>
+<span id="cb8-257"><a href="#cb8-257" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Whether a property has met energy benchmarking requirements for the current reporting year.&quot;</span>,</span>
+<span id="cb8-258"><a href="#cb8-258" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-259"><a href="#cb8-259" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-260"><a href="#cb8-260" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-261"><a href="#cb8-261" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-262"><a href="#cb8-262" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;ComplianceIssue&quot;</span>,</span>
+<span id="cb8-263"><a href="#cb8-263" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Caso não esteja em conformidade, qual problema o edifício apresentou em 15 de novembro de 2021.&quot;</span>,</span>
+<span id="cb8-264"><a href="#cb8-264" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;If not compliant, what issue the building had as of November 15, 2021.&quot;</span>,</span>
+<span id="cb8-265"><a href="#cb8-265" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quanlitative&quot;</span>,</span>
+<span id="cb8-266"><a href="#cb8-266" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;nominal&quot;</span></span>
+<span id="cb8-267"><a href="#cb8-267" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-268"><a href="#cb8-268" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-269"><a href="#cb8-269" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;Electricity(kBtu)&quot;</span>,</span>
+<span id="cb8-270"><a href="#cb8-270" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade anual de eletricidade consumida pela propriedade no local, incluindo eletricidade comprada da rede e gerada por sistemas renováveis ​​no local, medida em milhares de unidades térmicas britânicas (kBtu).&quot;</span>,</span>
+<span id="cb8-271"><a href="#cb8-271" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The annual amount of electricity consumed by the property on-site, including electricity purchased from the grid and generated by onsite renewable systems, measured in thousands of British thermal units (kBtu).&quot;</span>,</span>
+<span id="cb8-272"><a href="#cb8-272" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-273"><a href="#cb8-273" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-274"><a href="#cb8-274" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-275"><a href="#cb8-275" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-276"><a href="#cb8-276" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;NaturalGas(kBtu)&quot;</span>,</span>
+<span id="cb8-277"><a href="#cb8-277" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade anual de gás natural fornecido pela concessionária consumido pela propriedade, medida em milhares de unidades térmicas britânicas (kBtu).&quot;</span>,</span>
+<span id="cb8-278"><a href="#cb8-278" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The annual amount of utility-supplied natural gas consumed by the property, measured in thousands of British thermal units (kBtu).&quot;</span>,</span>
+<span id="cb8-279"><a href="#cb8-279" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-280"><a href="#cb8-280" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-281"><a href="#cb8-281" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-282"><a href="#cb8-282" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-283"><a href="#cb8-283" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;TotalGHGEmissions&quot;</span>,</span>
+<span id="cb8-284"><a href="#cb8-284" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;A quantidade total de emissões de gases de efeito estufa, incluindo dióxido de carbono, metano e gases de óxido nitroso liberados na atmosfera como resultado do consumo de energia na propriedade, medido em toneladas métricas de dióxido de carbono equivalente. Este cálculo usa um fator de emissões de GEE do portfólio de recursos de geração da Seattle CIty Light.&quot;</span>,</span>
+<span id="cb8-285"><a href="#cb8-285" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;The total amount of greenhouse gas emissions, including carbon dioxide, methane, and nitrous oxide gases released into the atmosphere as a result of energy consumption at the property, measured in metric tons of carbon dioxide equivalent. This calculation uses a GHG emissions factor from Seattle CIty Light&#39;s portfolio of generating resources.&quot;</span>,</span>
+<span id="cb8-286"><a href="#cb8-286" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-287"><a href="#cb8-287" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-288"><a href="#cb8-288" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-289"><a href="#cb8-289" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-290"><a href="#cb8-290" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;GHGEmissionsIntensity&quot;</span>,</span>
+<span id="cb8-291"><a href="#cb8-291" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Total de Emissões de Gases de Efeito Estufa dividido pela área bruta do piso da propriedade, medida em quilogramas de dióxido de carbono equivalente por pé quadrado. Este cálculo usa um fator de emissões de GEE do portfólio de recursos de geração da Seattle City Light.&quot;</span>,</span>
+<span id="cb8-292"><a href="#cb8-292" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Total Greenhouse Gas Emissions divided by property&#39;s gross floor area, measured in kilograms of carbon dioxide equivalent per square foot. This calculation uses a GHG emissions factor from Seattle City Light&#39;s portfolio of generating resources.&quot;</span>,</span>
+<span id="cb8-293"><a href="#cb8-293" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-294"><a href="#cb8-294" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;continua&quot;</span></span>
+<span id="cb8-295"><a href="#cb8-295" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb8-296"><a href="#cb8-296" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb8-297"><a href="#cb8-297" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;variavel&quot;</span> : <span class="st">&quot;NumberofBuildings&quot;</span>,</span>
+<span id="cb8-298"><a href="#cb8-298" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-pt&quot;</span>: <span class="st">&quot;Número total de estruturas na propriedade.&quot;</span>,</span>
+<span id="cb8-299"><a href="#cb8-299" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;descricao-en&quot;</span>: <span class="st">&quot;Total number of structures on the property.&quot;</span>,</span>
+<span id="cb8-300"><a href="#cb8-300" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;tipo&quot;</span>     : <span class="st">&quot;quantitative&quot;</span>,</span>
+<span id="cb8-301"><a href="#cb8-301" aria-hidden="true" tabindex="-1"></a>       <span class="st">&quot;subtipo&quot;</span>  : <span class="st">&quot;discreet&quot;</span></span>
+<span id="cb8-302"><a href="#cb8-302" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb8-303"><a href="#cb8-303" aria-hidden="true" tabindex="-1"></a>])</span></code></pre></div>
+</div>
+<div id="0f594161" class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># apresentação do dicionário</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>display(data_dict.shape)</span></code></pre></div>
+<div class="output display_data">
+<pre><code>(43, 5)</code></pre>
+</div>
+</div>
+<div id="78f072c4" class="cell markdown">
+<h2 id="4-conclusion">4. Conclusion</h2>
+</div>
+<div id="21204f35" class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contando o número de colunas de tipo string ou categoria</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>num_strings <span class="op">=</span> <span class="bu">sum</span>((df_raw_seattle.dtypes <span class="op">==</span> <span class="st">&#39;object&#39;</span>) <span class="op">|</span> (df_raw_seattle.dtypes <span class="op">==</span> <span class="st">&#39;category&#39;</span>))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Contando o número de colunas numéricas</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>num_numeric <span class="op">=</span> <span class="bu">sum</span>((df_raw_seattle.dtypes <span class="op">==</span> <span class="st">&#39;int64&#39;</span>) <span class="op">|</span> (df_raw_seattle.dtypes <span class="op">==</span> <span class="st">&#39;float64&#39;</span>))</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtendo os nomes das colunas que são strings ou categóricas</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>string_columns <span class="op">=</span> df_raw_seattle.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;object&#39;</span>, <span class="st">&#39;category&#39;</span>]).columns</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Número de colunas de string ou categoria: </span><span class="sc">{</span>num_strings<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Número de colunas numéricas: </span><span class="sc">{</span>num_numeric<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Colunas de string ou categoria:&quot;</span>, <span class="bu">list</span>(string_columns))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Número de colunas de string ou categoria: 14
+Número de colunas numéricas: 29
+Colunas de string ou categoria: [&#39;BuildingName&#39;, &#39;BuildingType&#39;, &#39;TaxParcelIdentificationNumber&#39;, &#39;Address&#39;, &#39;City&#39;, &#39;State&#39;, &#39;Neighborhood&#39;, &#39;PrimaryPropertyType&#39;, &#39;LargestPropertyUseType&#39;, &#39;SecondLargestPropertyUseType&#39;, &#39;ThirdLargestPropertyUseType&#39;, &#39;EPAPropertyType&#39;, &#39;ComplianceStatus&#39;, &#39;ComplianceIssue&#39;]
+</code></pre>
+</div>
+</div>
+<div id="6f7162ff" class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df_raw_seattle.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>(14525, 43)</code></pre>
+</div>
+</div>
+<div id="5dc38668" class="cell markdown">
+<p><img
+src="vertopal_20392a6dbab14b49aa12ab8a2fed2a29/Resumo_inicial_dados.png"
+alt="Resumo_inicial_dados.png" /></p>
+</div>
+<div id="4f25382b" class="cell markdown">
+<h2 id="5-exporting-the-results">5. Exporting the Results</h2>
+</div>
+<div id="03a1bf36" class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># path to save files</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>path_df <span class="op">=</span> <span class="vs">r&#39;C:\Users\Yago\Desktop\GitHubLocal\UFC\ComputationalIntelligence\HW1\5.pre_processing\df_raw_seattle.csv&#39;</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>path_data_dict <span class="op">=</span>  <span class="vs">r&#39;C:\Users\Yago\Desktop\GitHubLocal\UFC\ComputationalIntelligence\HW1\5.pre_processing\data_dict_total.csv&#39;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># export the Dataframe to csv:</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>df_raw_seattle.to_csv(path_df, index <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co"># export the Dicionary to csv:</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>data_dict.to_csv(path_data_dict, index <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="co"># export the Dicionary to json:</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="co">#with open(path_json, &#39;w&#39;, encoding=&#39;utf-8&#39;) as f:</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="co">#    json.dump(data_dict, f, ensure_ascii=False, indent=4)</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Arquivos exportados com sucesso!&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Arquivos exportados com sucesso!
+</code></pre>
+</div>
+</div>
+<div id="a5c32d6d" class="cell markdown">
+<h2 id="references">References</h2>
+</div>
+<div id="54898c51" class="cell markdown">
+<p>[1] Seattle.gov, "2019 Building Energy Benchmarking", City of
+Seattle. [Online]. Disponível: <a
+href="https://data.seattle.gov/Built-Environment/2019-Building-Energy-Benchmarking/3th6-ticf/about_data"
+class="uri">https://data.seattle.gov/Built-Environment/2019-Building-Energy-Benchmarking/3th6-ticf/about_data</a>.
+[Acessado: 10 de novembro de 2024].</p>
+<p>[2] Seattle.gov, "2020 Building Energy Benchmarking", City of
+Seattle. [Online]. Disponível: <a
+href="https://data.seattle.gov/Built-Environment/2020-Building-Energy-Benchmarking/auez-gz8p/about_data"
+class="uri">https://data.seattle.gov/Built-Environment/2020-Building-Energy-Benchmarking/auez-gz8p/about_data</a>.
+[Acessado: 10 de novembro de 2024].</p>
+<p>[3] Seattle.gov, "2021 Building Energy Benchmarking", City of
+Seattle. [Online]. Disponível: <a
+href="https://data.seattle.gov/Built-Environment/2021-Building-Energy-Benchmarking/bfsh-nrm6/about_data"
+class="uri">https://data.seattle.gov/Built-Environment/2021-Building-Energy-Benchmarking/bfsh-nrm6/about_data</a>.
+[Acessado: 10 de novembro de 2024].</p>
+<p>[4] Seattle.gov, "2022 Building Energy Benchmarking", City of
+Seattle. [Online]. Disponível: <a
+href="https://data.seattle.gov/Built-Environment/2022-Building-Energy-Benchmarking/5sxi-iyiy/about_data"
+class="uri">https://data.seattle.gov/Built-Environment/2022-Building-Energy-Benchmarking/5sxi-iyiy/about_data</a>.
+[Acessado: 10 de novembro de 2024].</p>
+<p>[5] Seattle.gov, "Office of Sustainability &amp; Environment", City
+of Seattle. [Online]. Disponível: <a
+href="https://www.seattle.gov/environment/climate-change/buildings-and-energy/energy-benchmarking"
+class="uri">https://www.seattle.gov/environment/climate-change/buildings-and-energy/energy-benchmarking</a>.
+[Acessado: 12 de novembro de 2024].</p>
+<p>[6] Seattle.gov, "Seattle Energy Benchmarking Ordinance", City of
+Seattle. [Online]. Disponível: <a
+href="https://energyfave.com/energy-benchmarking-compliance/seattle-energy-benchmarking/#"
+class="uri">https://energyfave.com/energy-benchmarking-compliance/seattle-energy-benchmarking/#</a>:~:text=Through%20benchmarking%2C%20building%20owners%20and,emissions%2C%20and%20generate%20cost%20savings.
+[Acessado: 12 de novembro de 2024].</p>
+</div>
+</body>
+</html>
